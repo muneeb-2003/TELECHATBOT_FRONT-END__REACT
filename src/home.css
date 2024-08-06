@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('/path/to/your/background-image.jpg') no-repeat center center fixed; */
+    background-size: cover;
+}
+
+.blurred-box {
+    width: 400px; /* Approximate width of a mobile phone */
+    height: 740px; /* Approximate height of a mobile phone */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blurs the background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px; /* Optional: rounded corners */
+}
+
+.blurred-box h1 {
+    color: rgb(255, 255, 255);
+}
+
+.blurred-box p {
+    margin: 10px 0;
+    font-size: 22px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    line-height: 1.6; /* Increase spacing between lines */
+    font-weight:100; /* Ensure the text is not bold */
+}
+/* home.css or your preferred CSS file */
+
+.circle-button {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the button circular */
+    /* background-color: #44030334; Button background color */
+    background: rgba(255, 255, 255);
+    color: white; /* Text color */
+    border: none; /* Removes border */
+    display: flex; /* Ensures content is centered */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    font-size: 24px; /* Adjust font size as needed */
+    cursor: pointer; /* Shows cursor as pointer on hover */
+    outline: none; /* Removes default focus outline */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.circle-button:hover {
+    background-color: #52585f; /* Darker shade of blue on hover */
+}
